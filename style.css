@@ -27,12 +27,13 @@ nav{
     /* box-shadow: 5px 5px 10px 0 gray; */
     transition: 0.5s;
     top: 0;
-    height: 63px;
-    min-height: 63px;
+    /* height: 63px;
+    min-height: 63px; */
 }
 nav img{
     width: 70px;
-    height: max-content;
+    height: 50px;
+    /* height: max-content; */
     cursor: pointer;
 }
 nav .container i{
