@@ -27,6 +27,8 @@ nav{
     /* box-shadow: 5px 5px 10px 0 gray; */
     transition: 0.5s;
     top: 0;
+    height: 63px;
+    min-height: 63px;
 }
 nav img{
     width: 70px;
@@ -888,7 +890,7 @@ footer .copy_right a:hover{
 /* <!-- ---//end footer//---- --> */
 
 .totop{
-    display: none;
+    display: block;
 
 }
 .fa-arrow-up{

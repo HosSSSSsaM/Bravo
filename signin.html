@@ -219,6 +219,27 @@
     }
 }
 
+$(".totop").click(function(){
+            window.scrollTo({
+            top: 0 ,
+            behavior: "smooth"
+            })
+        })
+        $(window).scroll(function(){
+          if(window.scrollY > 400){
+              $(".totop").fadeIn(1000)
+            }else{
+              $(".totop").fadeOut(1000)
+          }
+        })
+        $(".totop").click(function(){
+          window.scrollTo({
+            top: 0 ,
+            behavior: "smooth"
+          })
+        })
+
+
 
   </script>
   </body>
