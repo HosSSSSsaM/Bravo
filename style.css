@@ -885,7 +885,7 @@ footer .copy_right a:hover{
 /* <!-- ---//end footer//---- --> */
 
 .totop{
-    display: block;
+    display: none;
 
 }
 .fa-arrow-up{
